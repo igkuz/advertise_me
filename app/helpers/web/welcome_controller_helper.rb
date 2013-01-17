@@ -1,0 +1,2 @@
+module Web::WelcomeControllerHelper
+end
