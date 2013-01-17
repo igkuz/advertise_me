@@ -6,4 +6,12 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body
-    = yield
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          = link_to "AdvertiseMe", root_path, class: "brand"
+    .container.mail_body
+      .row
+        .span9
+          = bootstrap_flash
+          = yield

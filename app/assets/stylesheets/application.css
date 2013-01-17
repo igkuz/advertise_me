@@ -11,3 +11,4 @@
  *= require_self
  *= require_tree .
  */
+.mail_body {padding-top: 40px}

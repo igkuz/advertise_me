@@ -8,7 +8,11 @@ gem 'rails', '3.2.11'
 gem 'sqlite3'
 gem 'rails-backbone'
 gem 'haml-rails'
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'less-rails'
 
+gem 'therubyracer', "~> 0.10.2"
+gem 'libv8'
 
 # Gems used only for assets and not required
 # in production environments by default.
