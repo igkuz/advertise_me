@@ -62,7 +62,7 @@ module AdvertiseMe
     config.generators do |g|
       g.test_framework  :test_unit, :fixture_replacement => :factory_girl
       g.stylesheeets false
-      g,view_specs false
+      g.view_specs false
       g.helper_specs false
       g.javascripts false
     end

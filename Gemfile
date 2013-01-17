@@ -25,6 +25,7 @@ end
 group :development do
   gem 'factory_girl', :require => false
   gem 'factory_girl_rails'
+  gem 'erb2haml'
 end
 
 group :test do
