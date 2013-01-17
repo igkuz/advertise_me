@@ -7,6 +7,7 @@ gem 'rails', '3.2.11'
 
 gem 'sqlite3'
 gem 'rails-backbone'
+gem 'haml-rails'
 
 
 # Gems used only for assets and not required
@@ -19,6 +20,17 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+end
+
+group :development do
+  gem 'factory_girl', :require => false
+  gem 'factory_girl_rails'
+end
+
+group :test do
+  gem 'minitest'
+  gem 'tconsole'
+  gem 'turn'
 end
 
 gem 'jquery-rails'
