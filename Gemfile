@@ -10,7 +10,6 @@ gem 'rails-backbone'
 gem 'haml-rails'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'less-rails'
-gem 'simple_form'
 
 gem 'therubyracer', "~> 0.10.2"
 gem 'libv8'
